@@ -1,0 +1,535 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-VariableFont_opsz\wght.ttf);
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(../fonts/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: "Inter";
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.header {
+  padding: 0 36px;
+  border-bottom: 1px solid #e6e8ec;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header__logo {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #23262f;
+  text-decoration: none;
+}
+
+.header__vertical-line {
+  width: 1px;
+  height: 48px;
+  background-color: #ebe8ec;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav__link {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #777e90;
+  text-decoration: none;
+}
+
+.button__ghost {
+  padding: 12px 16px;
+  background: none;
+  border: 2px solid #e6e8ec;
+  border-radius: 999px;
+  font-family: "Inter";
+  font-weight: 700;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.button__fill {
+  width: 44px;
+  height: 44px;
+  background-color: #23262f;
+  border: none;
+  border-radius: 22px;
+  background-image: 22px;
+  background-image: url(../image/chat-writing.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.logo__dot {
+  color: #1d7c4d;
+}
+
+/* hero */
+
+.hero {
+  padding: 50px 0;
+  border-bottom: 1px solid #e6e8ec;
+}
+
+.hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 530px;
+}
+
+.hero__social {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.social__link {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.social_link__inst {
+  background-image: url(../image/instagram.svg);
+}
+
+.social_link__twit {
+  background-image: url(../image/twitter.svg);
+}
+
+.social_link__discords {
+  background-image: url(/image/discord.svg);
+}
+
+.hero__title {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 96px;
+  letter-spacing: -2%;
+  color: #23262f;
+  margin: 0;
+  margin-bottom: 50px;
+  white-space: nowrap;
+}
+
+.hero__title-original {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 96px;
+  letter-spacing: -2%;
+  color: #23262f;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.hero__subtitle {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -1%;
+  color: #777e90;
+  margin-bottom: 50px;
+}
+
+.hero__player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 600px;
+  border-radius: 300px;
+  background: none;
+  border: 1px solid #e6e8ec;
+}
+
+.plaer__preview {
+  width: 525px;
+  height: 525px;
+  border-radius: 50%;
+  background: url(/image/prevu.jpg) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button__play {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #e6e8ec00;
+  background-image: url(/image/pngwing.com.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+/* gallery */
+
+.gallery {
+  padding: 90px 0 58px 0;
+  border-bottom: 1px solid #e6e8ec;
+}
+
+.gallery_v2 {
+  padding: 50px 0 50px 0;
+  border-bottom: 1px solid #e6e8ec;
+}
+
+.galerly__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.gallery__nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.button__nav {
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 14px line-height 16px;
+  color: #23262f;
+  background: none;
+  border: none;
+  border-radius: 999px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.button__nav_active {
+  background-color: #23262f;
+  color: #e6e8ec;
+}
+
+.button__nav:hover {
+  outline: 1px solid #e6e8ec;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.card {
+  margin-bottom: 32px;
+  padding: 0 10px;
+}
+
+.card__image {
+  width: 379px;
+  height: 450px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.card__name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262f;
+}
+
+.card__date {
+  font-size: 14px;
+  line-height: 24px;
+  color: #777e90;
+}
+
+.card__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* footer */
+
+.footer {
+  padding: 50px 0;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer__nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.footer__copy {
+  font-size: 14px;
+  line-height: 24px;
+  color: #777e90;
+}
+
+.nav__link:hover {
+  color: #23262f;
+}
+
+/* review */
+
+.review {
+  padding: 50px 0;
+  border-bottom: 1px solid #e6e8ec;
+}
+
+.review__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+  gap: 30px;
+}
+
+.review__plaer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 600px;
+  border-radius: 300px;
+  background: none;
+}
+
+.plaer__preview-page2 {
+  width: 513px;
+  height: 675px;
+  border-radius: 8px;
+  background: url(../image/2_pageplayer_image.jpg) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review__title {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 96px;
+  letter-spacing: -2%;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  width: 653px;
+  color: #23262f;
+  white-space: nowrap;
+}
+
+.review__subtitle {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -1%;
+  margin-bottom: 50px;
+  width: 653px;
+  color: #777e90;
+}
+
+.review__date {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* formate */
+
+@media (max-width: 768px) {
+  .container {
+    width: 648px;
+  }
+
+  .header__vertical-line {
+    display: none;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .button__fill {
+    display: none;
+  }
+
+  .button__ghost {
+    display: none;
+  }
+
+  .header__icon-menu {
+    width: 44px;
+    height: 44px;
+    background-image: url(../image/menu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .hero__container {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .hero__title {
+    font-size: 64px;
+    line-height: 64px;
+    margin-bottom: 50px;
+  }
+
+  .hero__title-original {
+    font-size: 64px;
+    line-height: 64px;
+    margin-bottom: 50px;
+  }
+
+  .hero__subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 50px;
+  }
+
+  .hero__content {
+    width: 100%;
+  }
+
+  .hero__player {
+    width: 100%;
+    height: 350px;
+  }
+
+  .plaer__preview {
+    width: 588px;
+    height: 290px;
+    border-radius: 145px;
+  }
+
+  .card {
+    padding: 7px;
+  }
+
+  .card__768and474 {
+    display: none;
+  }
+
+  .card__image {
+    width: 308px;
+    height: 450px;
+  }
+
+  .review__container {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .plaer__preview-page2 {
+    width: 648px;
+    height: 675px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 474px) {
+  .container {
+    width: 410px;
+  }
+
+  .hero__title {
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 50px;
+  }
+
+  .hero__title-original {
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 50px;
+  }
+
+  .hero__subtitle {
+    margin-bottom: 50px;
+  }
+
+  .hero__player {
+    width: 360px;
+    height: 360px;
+  }
+
+  .plaer__preview {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+  }
+
+  .card__image {
+    width: 410px;
+  }
+
+  .review__container {
+    gap: 60px;
+  }
+
+  .plaer__preview-page2 {
+    width: 410px;
+    height: 675px;
+    margin-bottom: 32px;
+  }
+
+  .card__474 {
+    display: none;
+  }
+}
