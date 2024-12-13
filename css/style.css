@@ -355,7 +355,7 @@ body {
   width: 513px;
   height: 675px;
   border-radius: 8px;
-  background: url(../image/2_pageplayer_image.jpg) center center no-repeat;
+  background: url(/image/3.jpg) center center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
