@@ -56,7 +56,7 @@ body {
 .header__vertical-line {
   width: 1px;
   height: 48px;
-  background-color: #ebe8ec;
+  background-color: #000000;
 }
 
 .header__nav {
