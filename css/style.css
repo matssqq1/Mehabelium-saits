@@ -106,7 +106,7 @@ body {
 
 .hero {
   padding: 50px 0;
-  border-bottom: 1px solid #e6e8ec;
+  border-bottom: 1px solid #000000;
 }
 
 .hero__container {
@@ -187,7 +187,7 @@ body {
   height: 600px;
   border-radius: 300px;
   background: none;
-  border: 1px solid #e6e8ec;
+  border: 1px solid #000000;
 }
 
 .plaer__preview {
@@ -217,12 +217,12 @@ body {
 
 .gallery {
   padding: 90px 0 58px 0;
-  border-bottom: 1px solid #e6e8ec;
+  border-bottom: 1px solid #000000;
 }
 
 .gallery_v2 {
   padding: 50px 0 50px 0;
-  border-bottom: 1px solid #e6e8ec;
+  border-bottom: 1px solid #000000;
 }
 
 .galerly__container {
